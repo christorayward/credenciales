@@ -28,7 +28,10 @@ img,
         grid-auto-rows: 400px;
         gap: 9rem;
     }
-
+    .blancoynegro{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    }
     .elementos{
         max-width: 120%;
         margin: 0.8rem auto;
